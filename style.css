@@ -1,0 +1,214 @@
+@font-face {
+  font-family: Inter-font;
+  src: url(./assets/fonts/Inter-Variable.ttf);
+}
+
+*,
+body,
+html {
+  font-family: Inter-font;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  margin: 89px 165px 129px 165px;
+}
+
+/* ==== Nav ==== */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 40px;
+  width: 1110px;
+  margin: 0 0 55px;
+}
+
+nav .logo {
+  width: 64px;
+  height: 40px;
+}
+
+nav .nav-links ul {
+  width: 431px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .nav-links ul li {
+  list-style-type: none;
+}
+
+nav .nav-links ul li a {
+  text-decoration: none;
+  color: #5e607a;
+}
+
+nav .nav-links ul li a:hover {
+  color: #f15d51;
+}
+
+/* ==== Main ==== */
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1110px;
+  height: 511px;
+  gap: 30px;
+}
+
+/* ======== highlight ======== */
+
+main .highlight {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+main .highlight .hero img {
+  width: 730px;
+  height: 300px;
+}
+
+main .highlight .title {
+  width: 730px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+main .highlight .title h1 {
+  margin: 0;
+  width: 50%;
+  font-size: 56px;
+  line-height: 56px;
+}
+
+main .highlight .title .description {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+main .highlight .title .description p {
+  font-size: 15px;
+  line-height: 26px;
+}
+
+main .highlight .title .description button {
+  width: 185px;
+  height: 48px;
+  font-size: 14px;
+  letter-spacing: 4.38px;
+  background: #f15d51;
+  color: white;
+  border: none;
+}
+
+main .highlight .title .description button:hover {
+  cursor: pointer;
+  background: #00001a;
+}
+
+/* ======== highlight-aside ======== */
+
+main .highlight-aside {
+  width: 350px;
+  height: 511px;
+  background: #00001a;
+  color: white;
+  padding: 32px 24px 31px 24px;
+  box-sizing: border-box;
+}
+
+main .highlight-aside h3 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 34px;
+  color: #e9aa52;
+}
+
+main .highlight-aside ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+main .highlight-aside ul .separate {
+  margin: 31px 0;
+  height: 1px;
+  width: 100%;
+  background: #5e607a;
+}
+
+main .highlight-aside ul li h4 {
+  font-size: 20px;
+  line-height: 24px;
+  color: #fffdfa;
+}
+
+main .highlight-aside ul li p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #c5c6ce;
+}
+
+/* ==== list ==== */
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  height: 129px;
+  width: 1110px;
+  margin-top: 71px;
+}
+
+.list .card {
+  width: 350px;
+  height: 129px;
+  display: flex;
+  gap: 24px;
+  cursor: pointer;
+}
+
+.list .card img {
+  width: 100px;
+  height: 127px;
+}
+
+.list .card .title {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.list .card .title h3 {
+  font-size: 32px;
+  line-height: 32px;
+  color: #c5c6ce;
+  margin: 0 0 12px 0;
+}
+
+.list .card .title h4 {
+  font-size: 18px;
+  line-height: 24px;
+  color: #00001a;
+  margin: 0 0 9px 0;
+}
+
+.list .card:hover .title h4 {
+  color: #f15d51;
+}
+
+.list .card .title p {
+  font-size: 15px;
+  line-height: 26px;
+  color: #5e607a;
+}
